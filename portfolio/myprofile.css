@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color:rgba(236, 236, 236, 0.705);
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+}
+.name{
+    color: #333;
+    font-size: 40px;
+    transition: 0.4s ease-in-out;
+    text-decoration:none;
+}
+
+nav {
+    margin: 20px 0;
+}
+
+nav a {
+    text-decoration:  none;
+    color: #F98866;
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.4s;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #fa9d5e;
+    font-size: 22px;
+}
+
+.P1{
+    padding: 20px;
+}
+.profile-picture {
+    margin-top: 60px;
+    border-radius: 10px;
+    max-width: 100%;
+    height:auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    width: 400px;
+}
+.name:hover{
+    color: #F98866;
+    font-size: 42px;
+    text-decoration: none;
+}
+.card {
+    margin-top: 30px;
+    justify-items: center;
+
+}
+
+.card img {
+    width: 50%;
+    height: auto;
+    display: block;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    transition: 0.4s ease-in-out;
+    overflow: auto;
+    border-radius: 20px;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+}
+.card p{
+    font-size: 30px;
+}
+.card img:hover{
+    width:55%;
+}
+.card a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #333;
+    transition: 0.5s ease-in-out;
+}
+.card a:hover{
+    color: #F98866;
+    font-size: 25px;
+    text-decoration: underline;
+}
+hr{
+    width: 40%;
+    align-self: center;
+    justify-self: center;
+    margin-top: 20px;
+}
+
+.contact a{
+    text-decoration: none;
+    color: #333;
+    transition: 0.3s ease-in-out;
+}
+.contact a::after{
+    color: #333;
+}
+.contact a:hover{
+    color: #F98866;
+    text-decoration: underline;
+    
+}
+span{
+    color: #F98866;
+}
+.intro{
+    margin-top: 12px;
+}
