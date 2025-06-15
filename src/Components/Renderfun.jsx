@@ -5,7 +5,7 @@ export default function Renderfun() {
     <div className="font-sans text-gray-800">
       {/* Header */}
       <header className="flex flex-col md:flex-row items-center justify-between p-6 bg-white shadow-md sticky top-0 z-50">
-        <h1 className="text-3xl font-bold">James Smith</h1>
+        <h1 className="text-3xl font-bold">Nitish</h1>
         <nav className="flex text-2xl font-semibold space-x-4 mt-4 md:mt-0">
           <a href="#about" className="hover:text-blue-600">About</a>
           <a href="#projects" className="hover:text-blue-600">Projects</a>
@@ -21,7 +21,7 @@ export default function Renderfun() {
           <p className="mb-4 text-lg text-gray-600">
             I build clean, responsive, and interactive web interfaces.
           </p>
-          <h3 className="text-2xl font-semibold">James Smith</h3>
+          <h3 className="text-2xl font-semibold">Nitish</h3>
         </div>
         <div className="md:w-1/3 mb-6 md:mb-0">
           <img
@@ -67,7 +67,7 @@ export default function Renderfun() {
       <section id="skills" className="px-6 py-10">
         <h2 className="text-2xl font-bold mb-4">Skills</h2>
         <div className="flex flex-wrap gap-4 text-sm">
-          {['HTML', 'CSS', 'JavaScript', 'React', 'Tailwind CSS', 'Bootstrap', 'Git', 'Github'].map(skill => (
+          {['HTML', 'CSS', 'JavaScript', 'React', 'Tailwind CSS', 'Git', 'Github'].map(skill => (
             <span
               key={skill}
               className="px-3 py-1 bg-gray-200 rounded-full"
@@ -82,7 +82,7 @@ export default function Renderfun() {
       <section id="contact" className="px-6 py-10 bg-gray-100">
         <h2 className="text-2xl font-bold mb-4">Contact</h2>
         <ul className="space-y-2 text-sm">
-          <li>Email: <a className="text-blue-600" href="mailto:james.amith@example.com">james.amith@example.com</a></li>
+          <li>Email: <a className="text-blue-600" href="mailto:james.amith@example.com">nitish.1212kum@gmail.com</a></li>
           <li>LinkedIn: <a className="text-blue-600" href="#">LinkedIn</a></li>
           <li>GitHub: <a className="text-blue-600" href="#">GitHub</a></li>
         </ul>
